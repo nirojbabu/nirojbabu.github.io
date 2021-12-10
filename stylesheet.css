@@ -1,0 +1,354 @@
+
+body {
+  background-color: skyblue;
+  font-family: Arial;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: black;
+    color:white;
+  }
+}
+
+.button2 {
+  border: 1px;
+  border-radius: 10%;
+  color: #f2f2f2;
+  background-color: black;
+  padding: 12px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+          }
+          .button2:hover {
+            background-color:green;
+            transition-duration: 0.5s;
+          }
+h2 {
+  text-shadow: 2px 2px #FF0000;
+}
+
+.header1 {
+background-color: black;
+padding: 40px;
+text-align: center;
+font-size: 25px;
+color: white;
+
+}
+
+.nav1 {
+float: left;
+height: 420px;
+width: 10%;
+background: #A9A9A9;
+padding: 20px;
+}
+
+.nav1 ul {
+list-style-type: none;
+padding: 0;
+}
+
+#farmersinfield {
+  width:20%;
+  margin-left: 1px;
+}
+figcaption {
+  color:Green;
+  font-weight: bold;
+
+}
+
+.footer1 {
+  background-image:url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg);
+  color:white;
+padding: 5px;
+text-align: center;
+color: white;
+}
+@media (max-width: 600px) {
+
+nav {
+  width: 100%;
+  height: auto;
+}
+}
+.horizontal{
+background-color: #666;
+color: white;
+text-align: center;
+font-size: 30px;
+padding: 5px;
+}
+a {
+text-decoration:none;
+}
+a:link {
+color: black;
+}
+
+a:visited {
+color: white;
+}
+
+a:hover {
+color: red;
+transition-duration: 1s;
+}
+
+
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+
+
+
+
+
+.jumbotron {
+  background-color:green;
+}
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position:relative;
+  margin-left: 350px;
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+
+
+
+
+
+
+
+.heading {
+  font-size: 25px;
+  margin-right: 25px;
+}
+
+.fa {
+  font-size: 25px;
+}
+
+.checked {
+  color: orange;
+}
+
+/* Three column layout */
+.side {
+  float: left;
+  width: 15%;
+  margin-top:10px;
+}
+
+.middle {
+  margin-top:10px;
+  float: left;
+  width: 70%;
+}
+
+/* Place text to the right */
+.right {
+  text-align: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The bar container */
+.bar-container {
+  width: 100%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+}
+
+/* Individual bars */
+.bar-5 {width: 60%; height: 18px; background-color: #04AA6D;}
+.bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
+.bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
+.bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
+.bar-1 {width: 15%; height: 18px; background-color: #f44336;}
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+@media (max-width: 400px) {
+  .side, .middle {
+    width: 100%;
+  }
+  .right {
+    display: none;
+  }
+}
+
+.checked {
+  color:orange;
+}
+
+
+
+
+
+
+#contactpersons {
+
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#contactpersons td, #contactpersons th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#contactpersons tr:nth-child(even){background-color: #f2f2f2;}
+
+#contactpersons tr:hover {background-color: green;}
+
+#contactpersons th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+  }
+
+body {
+  background-color: #ADD8E6;
+  }
+
+legend {
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+
+.button1 {
+  border: 1px;
+  border-radius: 10%;
+  color: black;
+  background-color: white;
+  padding: 12px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+          }
+  .button1:hover {
+    background-color: green;
+    transition-duration: 0.5s;
+
+  }
+
+  .footer2 {
+    background-image:url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg);
+
+    color:white;
+  padding: 5px;
+  margin-top: 30px;
+  text-align: center;
+  color: white;
+  }
